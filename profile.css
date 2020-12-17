@@ -1,0 +1,86 @@
+
+body{
+    align-items: center;
+    text-align: center;
+
+}
+
+.box{
+
+float: right;
+}
+.box-img{
+
+    align-items: center;
+    /* width: 300px;
+    border-radius: 50%;
+    clip-path: ellipse(50% 50%); */
+
+}
+.avatar_produit{
+    /* overflow: hidden; */
+    width: 300px;
+    float: right;
+    border-radius: 50%;
+     padding: 30px 30px 30px 30px;
+        /* border: solid #1d000000; */
+   /* border-radius: 40%;  */
+}
+.avatar:hover{
+    height: auto;
+     width: auto;
+     border-radius: 50%;
+     padding: 30px 30px 30px 30px;
+}
+.box-text{
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 2px;
+}
+.box-text h1{
+    font-size : 48px;
+    font-weight: bold;
+    margin-bottom: 70px;
+    color: #2e2e2e;
+
+}
+.box-text p{
+    font-size: 15px;
+    color: #2e2e2e;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+}
+.box-text .social{
+    align-items: center;
+    padding:30px 30px 30px 30px;
+}
+.box-text .social a:hover{
+    background: #fff;
+    color: #333;
+}
+.box-text .social a{
+    display: inline-block;
+    width: 50px;
+    line-height: 50px;
+    margin: 12px 40px 0 0;
+    height: 50px;
+padding-right: auto;
+background: #ef32d9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-radius: 50%;
+font-size: 30px;
+text-align: center;
+color: #fff;
+line-height: 50px;
+}
+.log_out{
+    padding-top: 10px;
+    /* position: absolute; */
+}
+.log_out button:hover{
+color: #000000;
+text-align: center;
+background-color: #fff;
+}

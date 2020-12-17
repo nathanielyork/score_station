@@ -1,0 +1,50 @@
+body{
+    font-family: roboto;
+    font-size: 16px;
+    color: #333;
+}
+.d-flex button{
+    margin: 1.5em 0.6em;
+    padding: 0.5em 2.4em;
+}
+.d-flex table{
+    margin: 1em 1em;
+
+}
+table .btnedit{
+color: lightsalmon;
+cursor: pointer;
+}
+.attention{
+    background-color: rgb(255, 130, 14);
+    /* color: maroon;
+     */
+     justify-content: center;
+     padding: 1em;
+}
+.success{
+    background-color: rgb(6, 180, 0);
+    /* color: maroon;
+     */
+     padding: 1em;
+}
+.danger{
+    background-color: rgb(255, 0, 0);
+    /* color: maroon;
+     */
+     padding: 1em;
+    
+}
+footer{
+    background:rgb(168, 105, 105);
+
+position:absolute;
+
+bottom:0;
+
+width:100%;
+
+padding-top:50px;
+
+height:50px;
+}

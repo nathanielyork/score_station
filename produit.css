@@ -1,0 +1,13 @@
+
+.row{
+    position: relative;
+    }
+    .row img{
+        width: 100px;
+        height: 100px;
+    }
+.container{
+        width: 100px;
+        height: 10%;
+        position: relative;
+    }
